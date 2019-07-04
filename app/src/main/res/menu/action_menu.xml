@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_action_trash"
+        android:orderInCategory="400"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/action_share"
+        android:title="@string/share_recording"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="300"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_edit"
+        android:title="@string/edit"
+        android:icon="@drawable/ic_mode_edit"
+        android:orderInCategory="200"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_save"
+        android:title="Save Recording"
+        android:icon="@drawable/ic_action_save"
+        android:visible="false"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+</menu>

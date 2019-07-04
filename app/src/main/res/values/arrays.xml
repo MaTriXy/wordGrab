@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="auto_recording_entries" translatable="false">
+        <item>@string/record_all_calls</item>
+        <item>@string/do_not_record_contacts</item>
+    </string-array>
+
+    <string-array name="auto_recording_values" translatable="false">
+        <item>@string/auto_all</item>
+        <item>@string/auto_no_contacts</item>
+    </string-array>
+
+
+    <string-array name="audio_types_entries">
+        <item>@string/prefs_amr</item>
+        <item>@string/prefs_mp3</item>
+    </string-array>
+
+
+    <string-array name="audio_types_values" translatable="false">
+        <item>@string/prefs_amr</item>
+        <item>@string/prefs_mp3</item>
+    </string-array>
+
+    <string-array name="audio_source_entries" translatable="false">
+        <item>VOICE COMMUNICATION</item>
+        <item>VOICE CALL</item>
+        <item>VOICE DOWNLINK</item>
+        <item>VOICE UPLINK</item>
+        <item>MIC</item>
+    </string-array>
+
+
+    <string-array name="audio_source_values" translatable="false">
+        <item>@string/voice_communication</item>
+        <item>@string/voice_call</item>
+        <item>@string/voice_downlink</item>
+        <item>@string/voice_uplink</item>
+        <item>@string/microphone</item>
+    </string-array>
+
+    <string-array name="empty_array"/>
+
+</resources>

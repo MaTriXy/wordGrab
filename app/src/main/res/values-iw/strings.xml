@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calls">%1$d שיחות</string>
+    <string name="now_recording">" מקליט שיחה עם %1$s"</string>
+    <string name="recorded_with">הוקלטה שיחה עם %1$s</string>
+    <string name="search">חיפוש</string>
+    <string name="settings">הגדרות</string>
+    <string name="share_recording">שתף קובץ הקלטה</string>
+    <string name="show_all">הצג הכל</string>
+    <string name="show_incoming">הצג שיחות נכנסות</string>
+    <string name="show_outgoing">הצג שיחות יוצאות</string>
+    <string name="stop_record_notification_action">הפסק הקלטה</string>
+    <string name="no_calls">אין שיחות</string>
+    <string name="edit">הוסף הערות</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="app_name">מקליט שיחות</string>
+    <string name="delete">מחק</string>
+    <string name="unable_start_recording">הקלטת שיחה נכשלה</string>
+    <string name="start_recording_notification_action">הקלט שיחה זו</string>
+    <string name="audio_settings">הגדרות אודיו</string>
+    <string name="audio_source">מקור אודיו</string>
+    <string name="audio_type">סוג קובץ</string>
+    <string name="auto_recording_options">אפשרויות הקלטה אוטומטית</string>
+    <string name="auto_recording_settings">הקלטה אוטומטית</string>
+    <string name="contacts_to_record">אנשי קשר להקלטה</string>
+    <string name="recorder_settings">הגדרות מקליט</string>
+    <string name="call">חייג</string>
+    <string name="add_to_contacts">הוסף לאנשי הקשר</string>
+    <string name="share">שתף קובץ הקלטה</string>
+    <string name="sms">שלח SMS</string>
+    <string name="call_with">שיחה עם %1$s</string>
+    <string name="dialog_ok">אישור</string>
+    <string name="dialog_cancel">ביטול</string>
+    <string name="comment_dialog_message">הוספת הערה לשיחה זו</string>
+    <string name="comment_dialog_title">הוספת הערה</string>
+    <string name="delete_dialog_title">מחיקת שיחה</string>
+    <string name="delete_dialog_message">האם למחוק שיחות אלו?</string>
+    <string name="delete_contact_dialog_message">להסיר איש קשר זה?</string>
+    <string name="delete_contact_dialog_title">הסרת איש קשר</string>
+    <string name="title_activity_contacts">אנשי קשר להקלטה</string>
+    <string name="file_not_found">קובץ לא נמצא</string>
+    <string name="do_not_record_contacts">אל תקליט אנשי קשר</string>
+    <string name="record_all_calls">הקלט את כל השיחות</string>
+
+</resources>

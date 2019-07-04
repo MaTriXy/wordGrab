@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="@dimen/fine_padding"
+    android:clickable="true">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivContactListThumb"
+        android:layout_width="@dimen/medium_size"
+        android:layout_height="@dimen/medium_size"
+        android:src="@drawable/ic_contact"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+
+    <TextView
+        android:id="@+id/tvContactName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/details_tv_style"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

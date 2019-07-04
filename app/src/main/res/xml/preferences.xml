@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/recorder_settings">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="AutoKey"
+            android:title="@string/auto_recording_settings" />
+
+        <ListPreference
+            android:defaultValue="@string/auto_all"
+            android:dependency="AutoKey"
+            android:entries="@array/auto_recording_entries"
+            android:entryValues="@array/auto_recording_values"
+            android:key="AutoOptionsKey"
+            android:title="@string/auto_recording_options" />
+
+        <Preference
+            android:dependency="AutoKey"
+            android:title="@string/contacts_to_record"
+            app:key="ContactsToRecordKey">
+
+            <intent
+                android:targetClass="com.crackdress.wordgrab.settings.ContactsActivity"
+                android:targetPackage="com.crackdress.wordgrab" />
+
+        </Preference>
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/audio_settings">
+        <ListPreference
+            android:defaultValue="@string/prefs_amr"
+            android:entries="@array/audio_types_entries"
+            android:entryValues="@array/audio_types_values"
+            android:key="AutoTypeKey"
+            android:title="@string/audio_type" />
+
+        <ListPreference
+            android:defaultValue="@string/voice_communication"
+            android:entries="@array/audio_source_entries"
+            android:entryValues="@array/audio_source_values"
+            android:key="AudioSourceKey"
+            android:title="@string/audio_source" />
+    </PreferenceCategory>
+
+    <Preference
+        android:title="Privacy Policy">
+
+        <intent
+            android:targetClass="com.crackdress.wordgrab.settings.PrivacyPolicy"
+            android:targetPackage="com.crackdress.wordgrab" />
+
+    </Preference>
+
+</PreferenceScreen>

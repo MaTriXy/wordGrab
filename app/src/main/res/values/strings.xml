@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">WordGrab</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_all">Show All</string>
+    <string name="show_incoming">Show Incoming</string>
+    <string name="show_outgoing">Show Outgoing</string>
+    <string name="delete">Delete</string>
+    <string name="share_recording">Share recording</string>
+    <string name="settings">Settings</string>
+
+
+    <string name="drawer_closed" translatable="false">Drawer Closed</string>
+    <string name="drawer_opened" translatable="false">Drawer Opened</string>
+    <string name="phone_number_key" translatable="false">phone_number</string>
+    <string name="incoming_key" translatable="false">incoming</string>
+    <string name="call_info_extra" translatable="false">call_info</string>
+    <string name="start_recording_action" translatable="false">com.crackdress.wordgrab.action.START_RECORD</string>
+    <string name="stop_recording_action" translatable="false">com.crackdress.wordgrab.action.STOP_RECORD</string>
+
+    <string name="title_activity_contacts">Contacts to record</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+
+    <string name="calls">%1$d Calls</string>
+    <string name="no_calls">No Calls</string>
+    <string name="unable_start_recording">Unable to start recording..</string>
+    <string name="stop_record_notification_action">Stop Recording</string>
+    <string name="now_recording">Now recording %1$s</string>
+    <string name="recorded_with">Recorded call with: %1$s</string>
+    <string name="start_recording_notification_action">Record this call</string>
+
+    <string name="recorder_settings">Recorder Settings</string>
+    <string name="auto_recording_settings">Automatic Recording Settings</string>
+    <string name="auto_recording_options">Automatic Recording Options</string>
+    <string name="contacts_to_record">Contacts To Record</string>
+    <string name="record_all_calls">Record all calls</string>
+    <string name="do_not_record_contacts">Do not record contacts</string>
+    <string name="audio_settings">Audio Settings</string>
+    <string name="audio_type">Audio Type</string>
+    <string name="audio_source">Audio Source</string>
+    <string name="share">Share</string>
+    <string name="call">Call</string>
+    <string name="sms">Send SMS</string>
+    <string name="add_to_contacts">Add to Contacts</string>
+    <string name="call_with">Call with %1$s</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="delete_dialog_title">Recording delete</string>
+    <string name="delete_dialog_message">Delete this recording</string>
+    <string name="comment_dialog_title">Add Comment</string>
+    <string name="comment_dialog_message">Add comment for this recording</string>
+    <string name="delete_contact_dialog_title">Delete Contact</string>
+    <string name="delete_contact_dialog_message">Delete this contact?</string>
+    <string name="file_not_found">Recording file cannot be found...</string>
+
+    <string name="voice_communication" translatable="false">COMMUNICATION</string>
+    <string name="voice_default" translatable="false">DEFAULT</string>
+    <string name="voice_call" translatable="false">CALL</string>
+    <string name="voice_downlink" translatable="false">DL</string>
+    <string name="voice_uplink" translatable="false">UL</string>
+    <string name="microphone" translatable="false">MIC</string>
+
+
+    <string name="auto_all" translatable="false">ALL</string>
+    <string name="auto_no_contacts" translatable="false">NO_CONTACTS</string>
+    <string name="auto_only_contacts" translatable="false">ONLY_CONTACTS</string>
+
+
+    <string name="prefs_amr" translatable="false">AMR</string>
+    <string name="prefs_mp3" translatable="false">MP3</string>
+    <string name="prefs_wav" translatable="false">WAV</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:background="@drawable/list_item_background">
+    
+    <ImageView
+        android:id="@+id/ivActionIcon"
+        android:layout_width="@dimen/medium_size"
+        android:layout_height="@dimen/medium_size"
+        android:padding="@dimen/small_padding"
+        android:src="@android:drawable/ic_menu_share"/>
+
+    <TextView
+        android:id="@+id/tvActionItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/action_tv_style"/>
+</LinearLayout>
